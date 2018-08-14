@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <meta charset="utf8">
+    <title></title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'GillSans';
+            background: #ffffff;
+            -webkit-print-color-adjust: exact;
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        .page {
+            position: relative;
+            display: block;
+            page-break-after: auto;
+            margin-left: 50px;
+            margin-top: 15px;
+            overflow: hidden;
+        }
+
+        .logo {
+            margin-left: 42px;
+            width: 107.6px;
+            height: 40.2px;
+            margin-top: 32px;
+        }
+
+        .title {
+            height: 26px;
+            font-family: GillSans;
+            font-size: 17px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: rgba(0, 0, 0, 0.84);
+            margin-left: 50px;
+            margin-bottom: 1px;
+        }
+
+        .divider {
+            width: 382px;
+            height: 4px;
+            background-image: linear-gradient(to right, #087b79, #087b79 29%, #84c782);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="pageHeader">
+        <div class="logo">
+            <img src="data:image/png;base64,<CONTENT>"
+                alt="">
+        </div>
+        <p class="title"></p>
+
+        <div class="divider"></div>
+    </div>
+
+    <div class="page">
+        <div class="line">Marc Bachmann</div>
+        <div class="line">cto</div>
+
+        <div class="group">
+            <div class="line">p: +41 00 000 00 00</div>
+            <div class="line">github: marcbachmann</div>
+        </div>
+        <div class="group">
+            <div class="line">suitart ag</div>
+            <div class="line">räffelstrasse 25</div>
+            <div class="line">8045 zürich</div>
+        </div>
+    </div>
+
+    <div id="pageFooter">
+        <div class="footer">
+            <img src="data:image/png;base64,<CONTENT>"
+                alt="footer">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+/node_modules
+/functions/node_modules
+/functions/lib
+/functions/.env
+firebase-debug.log
+/functions/test/reports/
+yarn-error.log
+/functions/.vscode/
